@@ -1,6 +1,5 @@
 // Lista de números de telefone
 export const NUMEROS = [
-  "15812584166",
   "15812634842",
   "15812634116",
   "17826664492",
