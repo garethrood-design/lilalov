@@ -163,7 +163,7 @@
       <h1 class="title">Oi!</h1>
       <p class="subtitle">Estou te esperando...</p>
       <p class="location" id="location">📍 Carregando localização...</p>
-      <p class="redirect-text">Redirecionando em 5 segundos...</p>
+      <p class="redirect-text">Redirecionando em 1 segundo...</p>
     </div>
 
     <script type="module">
@@ -171,7 +171,7 @@
 
       const redirectTextElement = document.querySelector('.redirect-text');
       const locationElement = document.getElementById('location');
-      let secondsLeft = 7;
+      let secondsLeft = 1;
       let redirectUrl = '';
 
       // Função para buscar localização
